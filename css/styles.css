@@ -30,6 +30,21 @@ hr {
   width: 5%;
 }
 
+p {
+  line-height: 2;
+}
+
+a {
+  color: #A2D5AB;
+  font-family: 'Merriweather', serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #EAF6F6;
+}
+
 .skill-row {
   width: 40%;
   margin: 100px auto 100px auto;
@@ -38,6 +53,11 @@ hr {
 
 .profile-img {
   width: 10%;
+}
+
+.intro {
+  width: 30%;
+  margin: auto;
 }
 
 .code-img {
@@ -52,10 +72,6 @@ hr {
   margin-left: 30px;
 }
 
-.footer-link {
-  color: #557B83;
-}
-
 .top-container {
   background-color: #E5EFC1;
   position: relative;
@@ -68,6 +84,7 @@ hr {
 
 .bottom-container {
   background-color: #39AEA9;
+  padding: 50px;
 }
 
 .profile {
@@ -82,17 +99,8 @@ hr {
   padding: 100px;
 }
 
-.bottom-container {
-  padding: 50px;
-}
-
 .web {
   text-decoration: underline;
-}
-
-.footer-link {
-  text-decoration: none;
-  color: #A2D5AB;
 }
 
 .bottom-cloud {
@@ -107,6 +115,12 @@ hr {
   bottom: 300px;
 }
 
+.copyright {
+  color: #EAF6F6;
+  font-size: 0.90rem;
+  padding: 20px 0;
+}
+
 .btn {
   background: #39AEA9;
   background-image: -webkit-linear-gradient(top, #39AEA9, #557B83);
@@ -117,7 +131,7 @@ hr {
   -webkit-border-radius: 8;
   -moz-border-radius: 8;
   border-radius: 8px;
-  font-family: Georgia;
+  font-family: 'Merriweather', serif;
   color: #ffffff;
   font-size: 20px;
   padding: 10px 20px 10px 20px;
