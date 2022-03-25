@@ -24,9 +24,14 @@ h3 {
   color: #557B83;
 }
 
+hr {
+  border-style: none;
+  border-top: dotted #EAF6F6;
+  width: 5%;
+}
 
 .skill-row {
-  width: 20%;
+  width: 40%;
   margin: 100px auto 100px auto;
   text-align: left;
 }
@@ -65,9 +70,29 @@ h3 {
   background-color: #39AEA9;
 }
 
+.profile {
+  padding: 100px;
+}
+
+.skills {
+  padding: 100px;
+}
+
+.contact-me {
+  padding: 100px;
+}
+
+.bottom-container {
+  padding: 50px;
+}
 
 .web {
   text-decoration: underline;
+}
+
+.footer-link {
+  text-decoration: none;
+  color: #A2D5AB;
 }
 
 .bottom-cloud {
@@ -80,4 +105,31 @@ h3 {
   position: absolute;
   left: 300px;
   bottom: 300px;
+}
+
+.btn {
+  background: #39AEA9;
+  background-image: -webkit-linear-gradient(top, #39AEA9, #557B83);
+  background-image: -moz-linear-gradient(top, #39AEA9, #557B83);
+  background-image: -ms-linear-gradient(top, #39AEA9, #557B83);
+  background-image: -o-linear-gradient(top, #39AEA9, #557B83);
+  background-image: linear-gradient(to bottom, #39AEA9, #557B83);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Georgia;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #E5EFC1;
+  background-image: -webkit-linear-gradient(top, #E5EFC1, #A2D5AB);
+  background-image: -moz-linear-gradient(top, #E5EFC1, #A2D5AB);
+  background-image: -ms-linear-gradient(top, #E5EFC1, #A2D5AB);
+  background-image: -o-linear-gradient(top, #E5EFC1, #A2D5AB);
+  background-image: linear-gradient(to bottom, #E5EFC1, #A2D5AB);
+  text-decoration: none;
 }
